@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ziko{
+    width: 40px;
+    border-radius: 50%;
+}
+nav{
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    background-color: rgb(21, 21, 29);
+    align-items: center;
+    height: 100px;
+}
+.capa{
+    color: rgb(62, 109, 62);
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+
+  
+}
+.mainlist{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+.listitems{
+    list-style: none;
+    padding: 30px 0;
+    height: 100%;
+  
+    
+}
+.listlinks{
+    text-decoration: none;
+    
+    color: white;
+}
+.drip{
+    position: relative;
+}
+.dropdown{
+    color: rgb(43, 68, 43);
+    position: absolute;
+    top: 30px;
+    width: 150px;
+    display: none;
+    background-color: rgb(27, 27, 56);
+   
+    
+}
+.dropdown li{
+    list-style: none;
+    width: 100%;
+    padding: 10px 10px;
+    color: white;
+}
+#drop:hover .dropdown {
+    display: block;
+}
+.dropdown li:hover{
+   background-color: green;
+}
+.linux2{
+    position: relative;
+}
+.dropdown2{
+    position: absolute;
+    left: 100px;
+    background-color: rgb(28, 28, 41);
+    width: 150px;
+    display: none;
+   
+}
+.dropdown2 li{
+    list-style: none;
+    color: white;width: 100%;
+}
+.linux2:hover .dropdown2{
+    display: block;
+}
+.dropdown2 li:hover{
+    background-color: green;
+    width: 100%;
+}
+.layout{
+    background-color: rgb(238, 229, 229);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "head ain art"
+    "sect ain art"
+    "sect side art"
+    ;
+    gap: 10px;
+}
+article{background-color: white;
+    grid-area: art;
+    margin: 10px 10px;
+    border-radius: 7px;
+}
+aside{
+    background-color: white;
+    grid-area: side;
+    position: relative;
+    margin: 10px 10px;
+}
+header{
+    grid-area: head;
+    position: relative;
+    border-radius: 7px;
+    margin: 10px 10px;
+    background-color: white;
+}
+section{
+    background-color: white;
+    grid-area: sect;
+    position: relative;
+    border-radius: 7px;
+    margin: 10px 10px;
+}
+main{
+    background-color: white;
+    grid-area: ain;
+    border-radius: 7px;
+    position: relative;
+    margin: 10px 10px;
+}
+.ppp{
+    position: absolute;
+    bottom: 20px;
+    width: 50px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    right: 20px;
+}
+.ttt{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    border: 0.5px solid;
+}
+.lll{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 20px;
+}
+.section2{
+    margin: 15px 15px;
+}
+.nelvee{
+    width: 8%;
+    border-radius: 50%;
+    float: left;
+    /* margin: 10px 10px; */
+    padding: 3px 7px;
+}
+.nelly{
+    height: 10%;
+}
+.date{
+    position: absolute;
+    right: 30px;
+    margin-top: 20px;
+
+}
+.title{
+    /* margin-top: 20px;
+ 
+    margin-bottom: 10px; */
+}
+.feb{
+    height: 15%;
+    margin-top: 20px;
+}
+.welcome{
+    width: 70%;
+    margin: 0px auto;
+    height: 80%;
+    text-align: justify;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.month{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+figcaption{
+    
+}
+.section3{
+    margin: 15px 15px;
+}
+.float{
+    height: 10%;
+}
+.pic{
+    width: 8%;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.nowhere{
+    margin-top: 20px;
+}
+.comb{
+    margin-top: 20px;
+}
+.combpic{
+    height: 65%;
+    width: 100%;
+}
+.yes{
+    position: absolute;
+    right: 30px;
+}
+.font{
+    display: flex;
+    justify-content: space-between;
+}
+.font .fontitems li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.section4{
+    margin: 15px 15px;
+}
+.hours{
+    position: absolute;
+    right: 30px;
+
+}
+.ada{
+    height: 20%;
+}
+.babypic{
+    border-radius: 50%;
+    width: 8%;
+    margin-right: 10px;
+    float:left;   
+}
+.excited{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addc{
+    height: 20%;
+}
+.addc ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.section5{
+    margin: 15px 15px;
+}
+.section5 h2{
+    height: 6%;
+}
+.section5 div{
+    height: 15%;
+}
+.dalu{
+    width: 10%;
+    height: 40%;
+    float: left;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.addition{
+    background-color: rgb(19, 131, 235);
+    color: white;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
